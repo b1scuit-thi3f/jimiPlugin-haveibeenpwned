@@ -2,7 +2,7 @@ import jimi
 
 class _haveibeenpwned(jimi.plugin._plugin):
     version = 0.1
-    jimiVersion = 1.8
+    jimiMinVersion = 1.8
 
     def install(self):
         # Register models
